@@ -5,3 +5,6 @@
 <p>
 	Also check out <a href="/db-example">the database example</a>.
 </p>
+<p>
+	Also check out <a href="/oidc-example">the OIDC example</a>.
+</p>
