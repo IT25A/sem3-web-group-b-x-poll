@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { enhance } from '$app/forms';
+
 	const { data } = $props();
 	type QuestionType = 'single' | 'multiple' | 'text' | 'rating';
 
@@ -44,7 +46,7 @@
 <main>
 	<h1>Create a poll</h1>
 
-	<form method="post" action="?/createPoll">
+	<form method="post" action="?/createPoll" use:enhance>
 		<input type="hidden" name="questionCount" value={questions.length} />
 
 		{#each questions as question, i (question.id)}
