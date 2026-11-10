@@ -9,3 +9,6 @@
 	Also check out <a href="/oidc-example">the OIDC example</a>.
 </p>
 <a href="./create-poll"><button> Create new Poll here</button></a>
+<p>
+	Give our <a href="/poll">SSE live poll prototype</a> a try.
+</p>
